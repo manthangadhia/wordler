@@ -1,0 +1,14 @@
+[workspace]
+authors = ["Manthan Gadhia <54841046+manthangadhia@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "wordle"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.13.*"
+nltk = ">=3.10.4,<4"
+numpy = ">=2.5.4,<3"
+tqdm = ">=4.70.1,<5"
